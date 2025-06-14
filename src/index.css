@@ -3,6 +3,9 @@
 @tailwind utilities; 
 
 * {
-  outline: 1px solid blue;
   font-family: 'Inter Variable', sans-serif;
 }
+
+/* * {
+  outline: 1px solid blue;
+} */
