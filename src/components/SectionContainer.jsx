@@ -2,7 +2,8 @@ export const SectionContainer = ({ children, ...props }) => {
     return (
         <section
             {...props}
-            className={`max-w-7xl my-10 mx-4 xl:mx-auto ${props.className}`}>
+            className={`max-w-6xl mx-auto py-10 ${props.className}`}
+        >
             {children}
         </section>
     )
